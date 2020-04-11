@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TableLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:padding="8dp">
+
+    <TableRow
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="에너지(kcal)"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/nutrient0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="672.3"
+            android:textColor="@color/textPrimary" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="탄수화물(g)"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/nutrient1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="672.3"
+            android:textColor="@color/textPrimary" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="단백질(g)"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/nutrient2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="672.3"
+            android:textColor="@color/textPrimary" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지방(g)"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/nutrient3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="672.3"
+            android:textColor="@color/textPrimary" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비타민A(R.E)	"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/nutrient4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="672.3"
+            android:textColor="@color/textPrimary" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="티아민(mg)"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/nutrient5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="672.3"
+            android:textColor="@color/textPrimary" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="리보플라빈(mg)"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/nutrient6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="672.3"
+            android:textColor="@color/textPrimary" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비타민C(mg)"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/nutrient7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="672.3"
+            android:textColor="@color/textPrimary" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="칼슘(mg)"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/nutrient8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="672.3"
+            android:textColor="@color/textPrimary" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="철분(mg)"
+            android:textColor="@color/textPrimary" />
+
+        <TextView
+            android:id="@+id/nutrient9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="672.3"
+            android:textColor="@color/textPrimary" />
+
+    </TableRow>
+
+</TableLayout>
+
+</layout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="fragment"
+            type="com.gayagok.activities.TimetableFragment3" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:orientation="vertical"
+            android:paddingTop="85dp"
+            android:stretchColumns="*">
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    style="@style/ExamDaysTextView"
+                    android:background="@color/white" />
+
+                <TextView
+                    style="@style/ExamDaysTextView"
+                    android:text="1일차" />
+
+                <TextView
+                    style="@style/ExamDaysTextView"
+                    android:text="2일차" />
+
+
+            </TableRow>
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    android:id="@+id/time1"
+                    style="@style/ExamClassesTextView"
+                    android:text="1" />
+
+
+                <TextView
+                    android:id="@+id/monday_1"
+                    style="@style/ExamClassesTextView" />
+
+                <TextView
+                    android:id="@+id/tuesday_1"
+                    style="@style/ExamClassesTextView" />
+            </TableRow>
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    android:id="@+id/time2"
+                    style="@style/ExamClassesTextView"
+                    android:text="2" />
+
+                <TextView
+                    android:id="@+id/monday_2"
+                    style="@style/ExamClassesTextView" />
+
+                <TextView
+                    android:id="@+id/tuesday_2"
+                    style="@style/ExamClassesTextView" />
+
+            </TableRow>
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    android:id="@+id/time3"
+                    style="@style/ExamClassesTextView"
+                    android:text="3" />
+
+                <TextView
+                    android:id="@+id/monday_3"
+                    style="@style/ExamClassesTextView"/>
+
+                <TextView
+                    android:id="@+id/tuesday_3"
+                    style="@style/ExamClassesTextView"/>
+
+
+            </TableRow>
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    android:id="@+id/time4"
+                    style="@style/ExamClassesTextView"
+                    android:text="4" />
+
+                <TextView
+                    android:id="@+id/monday_4"
+                    style="@style/ExamClassesTextView"/>
+
+                <TextView
+                    android:id="@+id/tuesday_4"
+                    style="@style/ExamClassesTextView" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/floatingMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:fab_addButtonColorNormal="@color/colorAccent"
+            app:fab_addButtonColorPressed="@color/colorAccentDark"
+            app:fab_addButtonPlusIconColor="@color/white"
+            app:fab_labelStyle="@style/menu_labels_style">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/findButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="@{fragment::findButtonPress}"
+                app:fab_colorNormal="@color/white"
+                app:fab_colorPressed="@color/colorAccentDark"
+                app:fab_icon="@drawable/ic_search"
+                app:fab_size="mini"
+                app:fab_title="찾기" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/shareButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="@{fragment::shareButtonPress}"
+                app:fab_colorNormal="@color/white"
+                app:fab_colorPressed="@color/colorAccentDark"
+                app:fab_icon="@drawable/ic_share"
+                app:fab_size="mini"
+                app:fab_title="공유하기" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/makeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="@{fragment::makeButtonPress}"
+                app:fab_colorNormal="@color/white"
+                app:fab_colorPressed="@color/colorAccentDark"
+                app:fab_icon="@drawable/ic_mode_edit"
+                app:fab_size="mini"
+                app:fab_title="새로 만들기" />
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </RelativeLayout>
+
+</layout>

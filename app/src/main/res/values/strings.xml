@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">가야곡초중학교</string>
+
+    <string name="facebook_application_id" translatable="false">477157689434105</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb477157689434105</string>
+
+    <string name="StringValue">이미지가 열리지 않습니다.</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ffffff">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="30dp"
+            android:paddingEnd="10dp"
+            android:text="급식을 불러오는중..."
+            android:textColor="@color/textPrimary" />
+
+    </LinearLayout>
+
+</layout>

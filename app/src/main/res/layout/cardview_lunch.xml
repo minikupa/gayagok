@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:contentPaddingTop="16dp"
+    app:contentPaddingBottom="8dp"
+    app:contentPaddingLeft="16dp"
+    app:contentPaddingRight="16dp"
+    android:layout_margin="5dp">
+
+    <com.hendraanggrian.recyclerview.widget.ExpandableItem
+        android:id="@+id/row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutHeader="@layout/lunch_header"
+        app:layoutContent="@layout/lunch_content"
+        app:duration="300"/>
+
+</androidx.cardview.widget.CardView>
+
+</layout>

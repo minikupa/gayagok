@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="새로고침"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_school"
+        android:icon="@drawable/ic_grade"
+        android:title="학교설정"
+        app:showAsAction="always"/>
+
+</menu>

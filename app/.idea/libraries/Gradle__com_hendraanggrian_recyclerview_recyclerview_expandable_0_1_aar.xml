@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hendraanggrian.recyclerview:recyclerview-expandable:0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/461083272502ecfc5bf15a99618d0e48/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/461083272502ecfc5bf15a99618d0e48/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hendraanggrian.recyclerview/recyclerview-expandable/0.1/9abebcd0555e025e2cf7d9d0a62c0567a41edff5/recyclerview-expandable-0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

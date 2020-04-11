@@ -1,0 +1,69 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "com.gayagok"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 82
+        versionName "4.3.9"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        resConfigs "ko", "en"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {            // 소스코드 레벨을 Java 8 으로 설정
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation "com.mikepenz:iconics-core:3.2.5"
+    implementation 'com.github.daniel-stoneuk:material-about-library:2.4.2'
+    implementation "com.hendraanggrian.recyclerview:recyclerview-expandable:0.1"
+    implementation 'com.airbnb.android:lottie:2.6.1'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    implementation 'com.thebluealliance:spectrum:0.7.1'
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+    implementation 'com.github.prolificinteractive:material-calendarview:2.0.0'
+    implementation 'org.jsoup:jsoup:1.11.3'
+    implementation 'gun0912.ted:tedbottompicker:2.0.0-alpha1'
+    implementation 'gun0912.ted:tedpermission:2.2.2'
+    implementation 'com.github.chrisbanes:PhotoView:2.1.3'
+
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+    implementation 'com.firebaseui:firebase-ui-auth:4.0.0'
+    implementation 'com.google.firebase:firebase-core:17.2.0'
+    implementation 'com.google.firebase:firebase-database:19.1.0'
+    implementation 'com.google.firebase:firebase-auth:19.0.0'
+    implementation 'com.google.firebase:firebase-storage:19.0.1'
+    implementation 'com.facebook.android:facebook-android-sdk:4.36.1'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+}
+apply plugin: 'com.google.gms.google-services'

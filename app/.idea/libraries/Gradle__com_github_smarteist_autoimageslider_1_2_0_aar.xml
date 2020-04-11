@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.smarteist:autoimageslider:1.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d43fd15a85d85d340e2824e52a054edf/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d43fd15a85d85d340e2824e52a054edf/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.smarteist/autoimageslider/1.2.0/51391b6628c7d0f4022b1dbcff899382d8a094fa/autoimageslider-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
